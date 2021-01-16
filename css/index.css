@@ -76,19 +76,7 @@ header {
     display:flex;
     margin-bottom:0px;
 }
-.logochild {
-    width:50px;
-    height:auto;
-    
-}
-.ambda h1 {
-    
-    display:flex;
-    align-content:baseline;
-    margin-top:40px;
-    font-size:30px;
-    font-weight:bold;
-}
+
 nav {
     
     width:65vh;
@@ -102,15 +90,6 @@ nav a {
     display:flex;
     color:black;
 }
-.top-img {
-    background:url(https://images.pexels.com/photos/315934/pexels-photo-315934.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-    width:800px;;
-    height:200px;
-    box-sizing:border-box;
-    background-position:center;
-    margin-top:30px;
-    margin-bottom:30px;
-}
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -121,7 +100,10 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+.top-img img {
+    margin-top:15px;
+    margin-bottom:15px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -160,74 +142,50 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .box .box1 {
+
+.teal {
     background-color:teal;
-    padding:30%;
-    padding-top:42%;
-    padding-bottom:42%; 
 }
-.middle-content .boxes .box .box2 {
+.gold {
     background-color:gold;
-    padding:30%;
-    padding-top:42%;
-    padding-bottom:42%; 
 }
-.middle-content .boxes .box .box3 {
-    background-color:cadetblue;
-    padding:30%;
-    padding-top:42%;
-    padding-bottom:42%; 
+.cadetblue {
+    background-color: cadetblue;
 }
-.middle-content .boxes .box .box4 {
-    background-color:coral;
-    padding:30%;
-    padding-top:42%;
-    padding-bottom:42%; 
+.coral {
+    background-color: coral;
 }
-.middle-content .boxes .box .box5 {
-    background-color:crimson;
-    padding:30%;
-    padding-top:42%;
-    padding-bottom:42%; 
+.crimson {
+    background-color: crimson;
 }
-.middle-content .boxes .box .box6 {
+.forestgreen {
     background-color:forestgreen;
-    padding:30%;
-    padding-top:42%;
-    padding-bottom:42%; 
 }
-.middle-content .boxes .box .box7 {
-    background-color:darkorchid;
-    padding:30%;
-    padding-top:42%;
-    padding-bottom:42%; 
+.darkorchid {
+    background-color: darkorchid;
 }
-.middle-content .boxes .box .box8 {
-    background-color:hotpink;
-    padding:30%;
-    padding-top:42%;
-    padding-bottom:42%; 
-    padding-left:30%;
+.hotpink {
+    background-color: hotpink;
 }
-.middle-content .boxes .box .box9 {
+.indigo {
     background-color:indigo;
-    padding:30%;
-    padding-top:42%;
-    padding-bottom:42%; 
+}
+.dodgerblue {
+    background-color:dodgerblue;
 }
 .middle-content .boxes .box .box10 {
     background-color:dodgerblue;
-    padding:30%;
-    padding-top:35%;
-    padding-bottom:35%; 
-}
+    padding:0%;
+    /* padding-top:35%;
+    padding-bottom:35%;  */
+} 
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
